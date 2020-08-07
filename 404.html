@@ -386,6 +386,17 @@
       });
       });
   </script>
+<script>
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({
+      el  : '#valine-comments',
+      path: location.pathname,
+    }, {"enable":true,"appId":"Vjt3v82bRvvCK1cqRSmnDV4S-MdYXbMMI","appKey":"fotEjS6BPOWIzfJ9qfFSebQC","placeholder":"发言需谨慎","avatar":"mm","meta":[],"pageSize":10,"lang":null,"visitor":false,"comment_count":true,"recordIP":false,"serverURLs":null,"enableQQ":false,"requiredFields":["nick"]}
+    ));
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>
