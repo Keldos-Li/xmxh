@@ -224,7 +224,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -276,7 +276,7 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        <span class="collection-header">嗯..! 目前共计 3 篇日志。 继续努力。</span>
+        <span class="collection-header">嗯..! 目前共计 1 篇日志。 继续努力。</span>
       </div>
 
       
@@ -297,47 +297,7 @@
 
       <div class="post-title">
           <a class="post-title-link" href="/2020/08/%E5%AE%B3%E6%80%95/" itemprop="url">
-            <span itemprop="name">害怕</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-08-07T16:17:25+08:00"
-              content="2020-08-07">
-          08-07
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/08/test/" itemprop="url">
-            <span itemprop="name">test</span>
-          </a>
-      </div>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-08-05T12:57:03+08:00"
-              content="2020-08-05">
-          08-05
-        </time>
-      </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2020/08/hello-world/" itemprop="url">
-            <span itemprop="name">新民学会内部测试</span>
+            <span itemprop="name">沈逸：如果交易后TikTok变成一张皮，能被定义为活下来吗？</span>
           </a>
       </div>
 
@@ -459,13 +419,23 @@
   
 
   
+  <script src="//cdn.jsdelivr.net/npm/quicklink@2.0.0/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink.listen({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://新民学会.keldos.me/archives/',]
+      });
+      });
+  </script>
 <script>
 NexT.utils.loadComments('#valine-comments', () => {
   NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
     new Valine(Object.assign({
       el  : '#valine-comments',
       path: location.pathname,
-    }, {"enable":true,"appId":"Vjt3v82bRvvCK1cqRSmnDV4S-MdYXbMMI","appKey":"fotEjS6BPOWIzfJ9qfFSebQC","placeholder":"网络不是法外之地👊","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":"zh-CN","visitor":false,"comment_count":true,"recordIP":true,"serverURLs":null,"enableQQ":false,"requiredFields":["nick"]}
+    }, {"enable":true,"appId":"Vjt3v82bRvvCK1cqRSmnDV4S-MdYXbMMI","appKey":"fotEjS6BPOWIzfJ9qfFSebQC","placeholder":"网络不是法外之地👊; 昵称是必填项","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":"zh-CN","visitor":false,"comment_count":true,"recordIP":true,"serverURLs":null,"enableQQ":false,"requiredFields":["nick"]}
     ));
   }, window.Valine);
 });
