@@ -213,7 +213,7 @@ body {
 body {
   background: var(--body-bg-color);
   color: var(--text-color);
-  font-family: "STFangsong", "FangSong", Monda, FangSong, STFangsong, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Monda, Monda, "FangSong", "STFangsong", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   line-height: 2;
   transition: all 0.2s ease-in-out;
@@ -224,7 +224,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "STFangsong", "FangSong", Monda, FangSong, STFangsong, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Monda, Monda, "FangSong", "STFangsong", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-weight: bold;
   line-height: 1.5;
   margin: 20px 0 15px;
@@ -583,7 +583,7 @@ pre {
 }
 pre,
 code {
-  font-family: consolas, Menlo, monospace, "PingFang SC", "Microsoft YaHei";
+  font-family: consolas, Menlo, monospace, "FangSong", "STFangsong", "PingFang SC", "Microsoft YaHei";
 }
 code {
   border-radius: 3px;
@@ -1312,7 +1312,7 @@ pre code {
   color: var(--brand-hover-color);
 }
 .site-title {
-  font-family: "STFangsong", "FangSong", Monda, FangSong, STFangsong, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Monda, Monda, "FangSong", "STFangsong", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   margin: 0;
@@ -1840,7 +1840,7 @@ pre code {
   z-index: 1500;
 }
 .post-body {
-  font-family: "STFangsong", "FangSong", Monda, FangSong, STFangsong, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Monda, FangSong, Monda, Monda, "FangSong", "STFangsong", "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
 }
 @media (min-width: 1200px) {
@@ -2158,7 +2158,7 @@ pre code {
 }
 .posts-expand .post-meta {
   color: #999;
-  font-family: "STFangsong", "FangSong", Monda, FangSong, STFangsong, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: Monda, FangSong, Monda, Monda, "FangSong", "STFangsong", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 0.75em;
   margin-top: 3px;
 }
@@ -2953,7 +2953,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #13ffff;
+  background: #a7ff14;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
