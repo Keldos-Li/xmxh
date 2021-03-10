@@ -2953,7 +2953,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #1b81e4;
+  background: #404aff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2979,4 +2979,8 @@ hr {
 }
 .sub-menu .menu-item {
   display: inline-block;
+}
+@font-face {
+  font-family: FangSong;
+  src: url("/asset/font/SIMFANG.TTF");
 }
